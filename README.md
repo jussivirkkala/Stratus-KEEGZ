@@ -1,9 +1,10 @@
 # keegz
  
-Displaying www.stratuseeg.com keegz patient information. .NET5 Console app. Build into single 
+Displaying www.stratuseeg.com keegz patient information. .NET5 Console app. Creates also .txt file into directory.
 
 ![keegz console output](keegz1.png)
 
+Build into single with 
 ```
 dotnet publish -r win-x64 -c Release --self-contained true -p:PublishSingleFile=true -p:IncludeAllContentForSelfExtract=true
 ``` 
