@@ -4,7 +4,7 @@ Displaying www.stratuseeg.com keegz patient information. .NET5 Console app. Crea
 
 ![keegz console output](keegz1.png)
 
-Build into single with 
+Build .NET5 SDK (www.dot.net) into single win-x64 exe with following command.
 ```
 dotnet publish -r win-x64 -c Release --self-contained true -p:PublishSingleFile=true -p:IncludeAllContentForSelfExtract=true
 ``` 
