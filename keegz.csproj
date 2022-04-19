@@ -2,11 +2,11 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <Authors></Authors>
-    <FileVersion>1.0.3.0</FileVersion>
+    <FileVersion>1.0.4.0</FileVersion>
     <Copyright>@jussivirkkala</Copyright>
-    <Version>1.0.3</Version>
+    <Version></Version>
     <Company />
     <Product>Displaying patient information from Stratus .keegz or StaticInfo.xml</Product>
     <Description></Description>
