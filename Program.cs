@@ -20,8 +20,9 @@ using System.Reflection;
 
 string r = "";
 r += Line("Displaying Stratus patient information from .keegz or StaticInfo.xml v" + 
-    FileVersionInfo.GetVersionInfo(Assembly.GetExecutingAssembly().Location).FileVersion
-    );
+    FileVersionInfo.GetVersionInfo(Assembly.GetExecutingAssembly().Location).FileVersion +
+    "\ngithub.com/jussivirkkala/Stratus-keegz");
+
 if (args.Length!=1)
 {
     Console.WriteLine(@"Drag .keegz or StaticInfo.xml over exe or shortcut. Or use SendTo with %APPDATA%\Microsoft\Windows\SendTo");
