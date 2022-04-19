@@ -1,6 +1,6 @@
 # keegz
- 
-Displaying www.stratuseeg.com keegz patient information. .NET5 Console app. Creates also .txt file into directory.
+
+Displaying www.stratuseeg.com keegz patient information. .NET6 Console app. Creates also .txt file into directory.
 
 ![keegz console output](keegz1.png)
 
