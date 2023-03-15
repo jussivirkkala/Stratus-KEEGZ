@@ -1,4 +1,4 @@
-﻿/* Displaying Stratus patient information from .keegz or StaticInfo.xml 
+﻿/* Displaying stratuseeg.com patient information from .keegz or StaticInfo.xml 
  * @jussivirkkala
  * 2023-03-16 v1.0.7 .NET7 added stratuseeg.com
  * 2022-04-19 v1.0.4 .NET6 removed namespace, class, main
