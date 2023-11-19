@@ -2,13 +2,14 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
+    <PublishAot>true</PublishAot> 
     <Authors></Authors>
-    <FileVersion>1.0.4.0</FileVersion>
+    <FileVersion>1.0.8.0</FileVersion>
     <Copyright>@jussivirkkala</Copyright>
     <Version></Version>
     <Company />
-    <Product>Displaying patient information from Stratus .keegz or StaticInfo.xml</Product>
+    <Product>Displaying patient information from stratuseeg.com .keegz or StaticInfo.xml</Product>
     <Description></Description>
   </PropertyGroup>
 
