@@ -1,5 +1,6 @@
 ﻿/* Displaying stratuseeg.com patient information from .keegz or StaticInfo.xml 
  * @jussivirkkala
+ * 2023-11-19 v.1.08 .NET8 and AOT.
  * 2023-03-16 v1.0.7 .NET7 added stratuseeg.com
  * 2022-04-19 v1.0.4 .NET6 removed namespace, class, main
  * 2021-09-02 v1.0.3 Exclude file list, visit 
@@ -7,7 +8,9 @@
  * 2021-08-29 v1.0.1 Group by Patient,Exam, Visit
  * 2021-08-28 v1.0.0 First version
  * 
- * dotnet publish keegz.csproj -r win-x64 -c Release --self-contained true -p:PublishSingleFile=true -p:IncludeAllContentForSelfExtract=true
+ ** dotnet publish keegz.csproj -r win-x64 -c Release --self-contained true -p:PublishSingleFile=true -p:IncludeAllContentForSelfExtract=true
+ * 
+ * dotnet publish keegz.csproj -r win-x64 -c Release --self-contained true
  */
 
 using System;
@@ -20,8 +23,11 @@ using System.Reflection;
 // Main function
 
 string r = "";
-r += Line("Displaying stratus.eeg patient information from .keegz or StaticInfo.xml v" + 
-    FileVersionInfo.GetVersionInfo(Assembly.GetExecutingAssembly().Location).FileVersion +
+r += Line("Displaying stratus.eeg patient information from .keegz or StaticInfo.xml v1.0.8" + 
+
+//    FileVersionInfo.GetVersionInfo(Assembly.GetExecutingAssembly().Location).FileVersion +
+//    FileVersionInfo.GetVersionInfo(System.AppContext.BaseDirectory).FileVersion +
+
     "\ngithub.com/jussivirkkala/Stratus-keegz");
 
 if (args.Length!=1)
