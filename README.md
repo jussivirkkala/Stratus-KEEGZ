@@ -1,6 +1,7 @@
 # keegz
+THIS NOT UPDATED ANYMORE. See Blazor-keegz for version running in browser.
 
-Displaying [www.stratuseeg.com] keegz patient information. .NET8 (dot.net) Console app. Creates also .txt file into directory.
+Displaying [www.stratuseeg.com](www.stratuseeg.com) keegz patient information. .NET8 (dot.net) Console app. Creates also .txt file into directory.
 
 ![keegz console output](keegz1.png)
 
